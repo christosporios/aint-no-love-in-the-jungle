@@ -1,0 +1,41 @@
+import type { ReactNode } from "react"
+
+type TimelineEvent = {
+  date: string
+  content: ReactNode
+  isPending?: boolean
+}
+
+type TimelineProps = {
+  events: TimelineEvent[]
+}
+
+export default function Timeline({ events }: TimelineProps) {
+  return (
+    <div className="relative">
+      {/* Vertical line */}
+      <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-yellow-500"></div>
+
+      <div className="space-y-8">
+        {events.map((event, index) => (
+          <div key={index} className="relative pl-12">
+            {/* Circle marker */}
+            <div
+              className={`absolute left-0 top-1.5 w-8 h-8 rounded-full border-4 ${event.isPending ? "bg-transparent border-yellow-500" : "bg-yellow-500 border-yellow-600"} flex items-center justify-center`}
+            >
+              {event.isPending && (
+                <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-yellow-400 opacity-75"></span>
+              )}
+            </div>
+
+            {/* Content */}
+            <div>
+              <p className="font-bold text-yellow-300 mb-1">{event.date}</p>
+              <div className="text-white">{event.content}</div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
