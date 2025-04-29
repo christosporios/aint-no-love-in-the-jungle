@@ -141,7 +141,7 @@ export default function FAQPage() {
 
           <div className="mt-12 text-center">
             <Button size="lg" className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-lg">
-              Υπογράψτε το αίτημά
+              Υπογράψτε το αίτημα
             </Button>
           </div>
         </div>
