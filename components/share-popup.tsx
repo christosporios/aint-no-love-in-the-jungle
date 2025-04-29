@@ -54,10 +54,8 @@ export default function SharePopup({ isOpen, onClose, title, subtitle }: SharePo
   }
 
   const generateIGStory = () => {
-    // In a real implementation, this would generate an Instagram story image
-    // For now, we'll just open a new window with the image
-    const url = `/api/generate-ig-story?title=${encodeURIComponent(title)}&subtitle=${encodeURIComponent(subtitle)}`
-    window.open(url, "_blank")
+    // Direct redirect to the static image instead of calling the API
+    window.open("/ig-story.png", "_blank")
   }
 
   if (!isOpen) return null

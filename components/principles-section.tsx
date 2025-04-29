@@ -13,7 +13,7 @@ export default function PrinciplesSection() {
 
           <div className="grid gap-6 md:grid-cols-2">
             <div className="bg-green-700/50 p-6 rounded-xl border-2 border-green-600 backdrop-blur-sm">
-              <div className="flex items-start mb-4">
+              <div className="flex items-center mb-4">
                 <div className="bg-yellow-500 text-black rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0">
                   1
                 </div>
@@ -26,7 +26,7 @@ export default function PrinciplesSection() {
             </div>
 
             <div className="bg-green-700/50 p-6 rounded-xl border-2 border-green-600 backdrop-blur-sm">
-              <div className="flex items-start mb-4">
+              <div className="flex items-center mb-4">
                 <div className="bg-yellow-500 text-black rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0">
                   2
                 </div>
@@ -39,16 +39,17 @@ export default function PrinciplesSection() {
             </div>
 
             <div className="bg-green-700/50 p-6 rounded-xl border-2 border-green-600 backdrop-blur-sm md:col-span-2">
-              <div className="flex items-start mb-4">
+              <div className="flex items-center mb-4">
                 <div className="bg-yellow-500 text-black rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 flex-shrink-0">
                   3
                 </div>
-                <h3 className="text-xl font-bold text-yellow-200">Οι εταιρείες φέρουν την ευθύνη</h3>
+                <h3 className="text-xl font-bold text-yellow-200">Οι εταιρείες πρέπει να περιμένουν τον κανονισμό</h3>
               </div>
               <p>
                 Θεωρούμε πρώτα από όλους υπεύθυνες τις 7 εταιρείες μικροκινητικότητας που έχουν παρατήσει χιλιάδες
                 πατίνια στο ιστορικό κέντρο της Αθήνας χωρίς καμία άδεια και χωρίς να πληρώνουν ούτε ευρώ για τα
-                χιλιάδες τετραγωνικά μέτρα δημοσίου χώρου που καταλαμβάνουν.
+                χιλιάδες τετραγωνικά μέτρα δημοσίου χώρου που καταλαμβάνουν. Τα πατίνια και η μικροκινητικότητα μπορεί
+                να έχουν θέση στην Αθήνα, αλλά μόνο με σωστό σχεδιασμό και την έγκριση και συγκατάθεση του δήμου.
               </p>
             </div>
           </div>
