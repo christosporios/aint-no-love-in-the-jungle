@@ -9,7 +9,7 @@ export default function PrinciplesSection() {
     <section className="relative py-20 overflow-hidden">
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center text-yellow-300">Οι Αρχές μας</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center text-yellow-300">Τα βασικά</h2>
 
           <div className="grid gap-6 md:grid-cols-2">
             <div className="bg-green-700/50 p-6 rounded-xl border-2 border-green-600 backdrop-blur-sm">
@@ -60,7 +60,7 @@ export default function PrinciplesSection() {
               className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-lg"
               onClick={() => window.open(PETITION_URL, "_blank")}
             >
-              Υπογράψτε το αίτημά μας
+              Υπογράψτε το αίτημά
             </Button>
           </div>
         </div>

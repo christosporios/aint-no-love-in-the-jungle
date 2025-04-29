@@ -23,7 +23,7 @@ export default function CTASection() {
               className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold text-lg"
               onClick={() => window.open(PETITION_URL, "_blank")}
             >
-              Υπογράψτε το αίτημά μας
+              Υπογράψτε το αίτημά
             </Button>
 
             <ShareButton />
