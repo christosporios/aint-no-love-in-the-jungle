@@ -98,9 +98,9 @@ export default function FloatingScooter() {
             const now = timestamp || performance.now();
 
             // Check if enough time has passed to add a new scooter
-            if (now - lastAddTime > (Math.random() * 800) + 200) {
+            if (now - lastAddTime > (Math.random() * 1600) + 400) {
                 const direction = Math.random() > 0.5 ? 'ltr' : 'rtl';
-                const height = Math.floor(Math.random() * 60) + 20; // Between 20-80% of screen height
+                const height = Math.floor(Math.random() * 40) + 60; // Between 60-100% of screen height (bottom 40%)
                 const speedVariation = ((Math.random() * 1) + 1.5); // Random speed multiplier
 
                 const newScooter: Scooter = {
