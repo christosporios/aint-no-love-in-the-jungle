@@ -3,9 +3,6 @@ import Image from "next/image"
 export default function DemandsSection() {
   return (
     <section className="py-20 relative overflow-hidden">
-      <div className="absolute inset-0 z-0">
-        <Image src="/jungle-path.png" alt="Jungle path" fill className="object-cover opacity-20" />
-      </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto">
