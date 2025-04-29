@@ -1,0 +1,48 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simple QR code representation -->
+  <rect x="0" y="0" width="200" height="200" fill="white"/>
+  <rect x="10" y="10" width="180" height="180" fill="none" stroke="black" stroke-width="3"/>
+  
+  <!-- Position detection patterns -->
+  <rect x="25" y="25" width="40" height="40" fill="black"/>
+  <rect x="30" y="30" width="30" height="30" fill="white"/>
+  <rect x="35" y="35" width="20" height="20" fill="black"/>
+  
+  <rect x="135" y="25" width="40" height="40" fill="black"/>
+  <rect x="140" y="30" width="30" height="30" fill="white"/>
+  <rect x="145" y="35" width="20" height="20" fill="black"/>
+  
+  <rect x="25" y="135" width="40" height="40" fill="black"/>
+  <rect x="30" y="140" width="30" height="30" fill="white"/>
+  <rect x="35" y="145" width="20" height="20" fill="black"/>
+  
+  <!-- WhatsApp Logo -->
+  <circle cx="100" cy="100" r="25" fill="#25D366"/>
+  <path d="M100,85 C107,85 113,88 117,92 C121,96 124,102 124,109 C124,116 121,122 117,126 C113,130 107,133 100,133 C97,133 94,132.5 91,131.5 L85,134 L77,136 L80,128 L82,122 C81,119 80,116 80,113 C80,106 83,100 87,96 C91,92 97,89 100,89 Z" fill="white"/>
+  <path d="M94,97 L90,110 L97,110 M106,97 L102,110 L109,110 M94,103 L109,103" stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- Data pattern - simplified -->
+  <g fill="black">
+    <rect x="75" y="25" width="5" height="5"/>
+    <rect x="85" y="25" width="5" height="5"/>
+    <rect x="95" y="25" width="5" height="5"/>
+    <rect x="75" y="35" width="5" height="5"/>
+    <rect x="85" y="45" width="5" height="5"/>
+    <rect x="95" y="55" width="5" height="5"/>
+    <rect x="25" y="75" width="5" height="5"/>
+    <rect x="35" y="85" width="5" height="5"/>
+    <rect x="45" y="95" width="5" height="5"/>
+    <rect x="75" y="75" width="5" height="5"/>
+    <rect x="55" y="85" width="5" height="5"/>
+    <rect x="65" y="95" width="5" height="5"/>
+    <rect x="135" y="75" width="5" height="5"/>
+    <rect x="145" y="85" width="5" height="5"/>
+    <rect x="155" y="95" width="5" height="5"/>
+    <rect x="75" y="135" width="5" height="5"/>
+    <rect x="85" y="145" width="5" height="5"/>
+    <rect x="95" y="155" width="5" height="5"/>
+    <rect x="135" y="135" width="5" height="5"/>
+    <rect x="145" y="145" width="5" height="5"/>
+    <rect x="155" y="155" width="5" height="5"/>
+  </g>
+</svg> 

@@ -8,6 +8,7 @@ import DemandsSection from "@/components/demands-section"
 import LinksSection from "@/components/links-section"
 import CTASection from "@/components/cta-section"
 import Footer from "@/components/footer"
+import ScooterAnimationWrapper from "@/components/scooter-animation-wrapper"
 
 export const metadata: Metadata = {
   title: "Δεν Υπάρχει Αγάπη στη Ζούγκλα | Προστασία του δημόσιου χώρου της Αθήνας",
@@ -24,6 +25,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-800 to-green-900 text-white">
+      <ScooterAnimationWrapper />
       <HeroSection />
       <PrinciplesSection />
       <ScooterSituationSection />
