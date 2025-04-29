@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useRef } from 'react';
 import Image from 'next/image';
+import QRCode from 'react-qr-code';
 
 // Type for each scooter
 type Scooter = {
@@ -242,11 +243,9 @@ export default function FloatingScooter() {
                             <div className="text-lg font-medium mt-2">ή σκανάροντας το QR</div>
 
                             <div className="bg-white p-2 rounded-lg shadow-md border border-gray-200">
-                                <Image
-                                    src="/whatsapp-qr.svg"
-                                    alt="WhatsApp QR Code"
-                                    width={150}
-                                    height={150}
+                                <QRCode
+                                    value={WHATSAPP_GROUP_URL}
+                                    size={150}
                                     className="mx-auto"
                                 />
                             </div>

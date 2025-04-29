@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useRef, useEffect } from "react"
-import { Copy, X, Instagram } from "lucide-react"
+import { Copy, X, Instagram, QrCode } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 type SharePopupProps = {
