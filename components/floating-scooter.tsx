@@ -77,6 +77,8 @@ export default function FloatingScooter() {
             if (newCount === 10) {
                 setShowPopup(true);
                 setGameActive(false); // Stop the game
+                // Clear any remaining scooters
+                setScooters([]);
             }
 
             return newCount;
