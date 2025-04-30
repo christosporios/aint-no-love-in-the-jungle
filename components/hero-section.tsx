@@ -1,11 +1,12 @@
 "use client"
 
 import Image from "next/image"
-import { ChevronDown } from "lucide-react"
+import { ChevronDown, BookOpen } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import ShareButton from "@/components/share-button"
 
 const PETITION_URL = "https://docs.google.com/document/d/1FVMdcWWMSrY9IvvHbNP4LRdvXNwhzYKDjrX-vnDKyAk/edit?tab=t.0"
+const ARTICLE_URL = "https://www.takebackthecity.gr/p/startupper"
 
 export default function HeroSection() {
   return (
@@ -37,6 +38,15 @@ export default function HeroSection() {
             onClick={() => window.open(PETITION_URL, "_blank")}
           >
             Υπογράψτε το αίτημα
+          </Button>
+
+          <Button
+            size="lg"
+            className="bg-white hover:bg-gray-100 text-green-800 font-bold text-lg shadow-lg"
+            onClick={() => window.open(ARTICLE_URL, "_blank")}
+          >
+            <BookOpen className="mr-2 h-5 w-5" />
+            Διαβάστε το άρθρο
           </Button>
 
           <ShareButton />

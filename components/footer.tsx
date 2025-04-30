@@ -11,6 +11,9 @@ export default function Footer() {
             <a href="https://github.com/christosporios/aint-no-love-in-the-jungle" target="_blank" rel="noopener noreferrer" className="text-green-300 hover:text-white transition-colors">
               GitHub
             </a>
+            <a href="mailto:christos@schemalabs.gr" className="text-green-300 hover:text-white transition-colors">
+              Email
+            </a>
           </div>
         </div>
       </div>
