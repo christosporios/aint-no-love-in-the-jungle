@@ -1,9 +1,12 @@
+import { Landmark, Link2, Users2 } from "lucide-react"
 import type { ReactNode } from "react"
 
 type TimelineEvent = {
   date: string
   content: ReactNode
   isPending?: boolean
+  isMeeting?: boolean
+  link?: string
 }
 
 type TimelineProps = {
@@ -26,13 +29,24 @@ export default function Timeline({ events }: TimelineProps) {
               {event.isPending && (
                 <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-yellow-400 opacity-75"></span>
               )}
+              {event.isMeeting && (
+                <Landmark className="h-4 w-4 text-black" />
+              )}
             </div>
 
             {/* Content */}
             <div>
-              <p className="font-bold text-yellow-300 mb-1">{event.date}</p>
+              <p className="font-bold text-yellow-300 mb-1">{event.date} {event.isMeeting && "(Δημοτικό Συμβούλιο)"}</p>
               <div className="text-white">{event.content}</div>
             </div>
+            {event.link && (
+              <div className="mt-2">
+                <a href={event.link} className="text-yellow-300 inline-flex items-center">
+                  <Link2 className="h-4 w-4 text-yellow-300 mr-1" />
+                  {new URL(event.link).hostname.replace('www.', '')}
+                </a>
+              </div>
+            )}
           </div>
         ))}
       </div>
