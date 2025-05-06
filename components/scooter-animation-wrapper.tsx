@@ -6,5 +6,9 @@ import dynamic from "next/dynamic";
 const FloatingScooter = dynamic(() => import("@/components/floating-scooter"), { ssr: false });
 
 export default function ScooterAnimationWrapper() {
-    return <FloatingScooter />;
+    return (
+        <div role="complementary" aria-label="Διαδραστικό παιχνίδι ενημέρωσης">
+            <FloatingScooter />
+        </div>
+    );
 } 

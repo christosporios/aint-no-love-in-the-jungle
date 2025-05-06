@@ -24,16 +24,25 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-green-800 to-green-900 text-white">
+    <>
       <ScooterAnimationWrapper />
-      <HeroSection />
-      <PrinciplesSection />
-      <ScooterSituationSection />
-      <ProposalSection />
-      <FAQSection />
-      <DemandsSection />
-      <CTASection />
-      <Footer />
-    </div>
+      <div className="min-h-screen bg-gradient-to-b from-green-800 to-green-900 text-white">
+        <header role="banner">
+          <HeroSection />
+        </header>
+
+        <main id="main-content">
+          <PrinciplesSection />
+          <ScooterSituationSection />
+          <ProposalSection />
+          <FAQSection />
+          <DemandsSection />
+          <LinksSection />
+          <CTASection />
+        </main>
+
+        <Footer />
+      </div>
+    </>
   )
 }
