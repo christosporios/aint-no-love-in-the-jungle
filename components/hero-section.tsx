@@ -52,6 +52,38 @@ export default function HeroSection() {
           <ShareButton />
         </div>
 
+        <div className="mt-8 text-sm text-white/80">
+          <p>
+            Στα μέσα:{" "}
+            <a
+              href="https://open.spotify.com/episode/7mLAiezcaOQ6ULqA0EbahV"
+              className="text-yellow-300 hover:text-yellow-400 underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              σε podcast
+            </a>,{" "}
+            <a
+              href="https://www.skairadio.gr/istories-me-drakou"
+              className="text-yellow-300 hover:text-yellow-400 underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              στο ραδιόφωνο του ΣΚΑΙ
+            </a>{" "}
+            (25:00),{" "}
+            <a
+              href="https://www.megatv.com/etvshows/1938029/08-05-2025/"
+              className="text-yellow-300 hover:text-yellow-400 underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              στη τηλεόραση του mega
+            </a>{" "}
+            (54:40)
+          </p>
+        </div>
+
         <div className="mt-20 animate-bounce">
           <ChevronDown className="h-8 w-8 mx-auto text-yellow-300" />
         </div>
