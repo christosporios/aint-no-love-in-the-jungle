@@ -2,7 +2,7 @@ import { BookOpen, Radio, Tv, Headphones } from "lucide-react"
 
 const ARTICLE_URL = "https://www.takebackthecity.gr/p/startupper"
 const PODCAST_URL = "https://open.spotify.com/episode/7mLAiezcaOQ6ULqA0EbahV"
-const RADIO_URL = "https://www.skairadio.gr/istories-me-drakou"
+const RADIO_URL = "https://www.skairadio.gr/istories-me-drakou/episode-2025-05-07"
 const TV_URL = "https://www.megatv.com/etvshows/1938029/08-05-2025/"
 
 export default function LinksSection() {
