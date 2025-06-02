@@ -64,7 +64,7 @@ export default function HeroSection() {
               σε podcast
             </a>,{" "}
             <a
-              href="https://www.skairadio.gr/istories-me-drakou"
+              href="https://www.skairadio.gr/istories-me-drakou/episode-2025-05-07"
               className="text-yellow-300 hover:text-yellow-400 underline"
               target="_blank"
               rel="noopener noreferrer"
